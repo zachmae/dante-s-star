@@ -1,0 +1,8 @@
+USAGE
+	./generator xsize ysize [perfect]
+DESCRIPTION
+	this is a labyrinth generator made by Zacharie .L and Louis .B as an epitech 1st year project
+ARGUMENTS
+	xsize		length of the maze
+	ysize		height of the maze
+	[perfect]	optionnal argument to create a perfectmaze or not

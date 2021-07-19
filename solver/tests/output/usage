@@ -1,0 +1,6 @@
+USAGE
+	./solver map.txt
+DESCRIPTION
+	this is a labyrinth solver made by Zacharie .L and Louis .B as an epitech 1st year project
+ARGUMENTS
+	map.txt		file that contain the map that has to be solved

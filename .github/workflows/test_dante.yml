@@ -1,0 +1,23 @@
+name: dante
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  test_server:
+    name: test_dante_star
+    container: epitechcontent/epitest-docker
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: checkout
+      uses: actions/checkout@v2
+    - name: compile
+      run: make
+    - name: test_bash_generator
+      run: ./generator/tests/test_generator.sh
+    - name: test_bash_solver
+      run: ./solver/tests/test_solver.sh

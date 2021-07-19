@@ -1,0 +1,5 @@
+./generator/generator
+./solver/solver
+*gc*
+*.o
+vgcore*
